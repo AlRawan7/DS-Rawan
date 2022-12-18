@@ -195,6 +195,7 @@ def user_stats(df,city):
 
 def info():
      print("Rawan AlOtaibi")
+     print("Data Science")
 
 
 def main():
