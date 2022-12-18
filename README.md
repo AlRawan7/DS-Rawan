@@ -17,3 +17,7 @@ new_york_city.csv
 
 ### Credits
 Udacity inspired me :)
+
+### About me
+Rawan AlOtaibi, Third year of university majoring in Data science :)
+ 
