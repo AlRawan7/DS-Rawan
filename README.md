@@ -7,10 +7,13 @@
 Bikeshare.py
 
 ### Description
-Describe what your project is about and what it does
+We want to know the number of daily flights in both: Chicago, washington, new york city
+  And also some analytics
 
 ### Files used
-Include the files used
+Chicago.csv
+washington.csv
+new_york_city.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
