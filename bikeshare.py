@@ -1,11 +1,13 @@
 import time
 import pandas as pd
 import numpy as np
-
+   """
+   Welcome to my first project 
+   """
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-def verification(input_str,input_type):
+def verifications(input_str,input_type):
     """ 
     input_str: is the input of the user
     input_type: is the type of input: 1 = city, 2 = month, 3 = day
@@ -42,15 +44,15 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city = verification("Choose a city (chicago , new york city , washington)? ", 1)
+    city = verifications("Choose a city (chicago , new york city , washington)? ", 1)
 
     # TO DO: get user input for month (all, january, february, ... , june)
 
-    month = verification("Choose month or all? ", 2)
+    month = verifications("Choose month or all? ", 2)
     
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
-    day = verification("Choose day or all? ", 3)
+    day = verifications("Choose day or all? ", 3)
 
     print('-'*60)
     return city, month, day
